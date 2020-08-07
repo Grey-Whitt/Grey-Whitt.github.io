@@ -99,11 +99,13 @@ section {
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.3), rgba(0, 0, 0, 0.73)), url(./Images/code.png);
     background-size: auto 200%;
     background-position: 0 100%;
+    background-position-x: center;
     transition: .5s;
 }
 
 .hero:hover {
-    background-position: 0 0;
+    background-position-x: center;
+    background-position-y: top;
 }
 
 .hero h2 {
@@ -325,6 +327,7 @@ section {
 
     .hero {
         text-align: center;
+        line-height: 1.5;
     }
 
 }
