@@ -9,27 +9,83 @@
 
 <body>
     <header>
-        <h1>Grey Whittenberger</h1>
-       
+        <div class="header-wrapper">
+            <h1>.Grey-Whittenberger <span class="white">{</span></h1>
+            <address class="contact css-blue">
+                phone<span class="white">:</span> <a href="tel:512.555.5555" class="link css-orange">512.555.5555</a>; <br/>
+                email<span class="white">:</span> <a href="mailto:email@email.com" class="link css-orange">email@email.com</a>; <br/>
+                github<span class="white">:</span> <span class="css-green">url</span><span class="white">(</span><a href="https://github.com/Grey-Whitt" class="link css-blue">https://github.com/Grey-Whitt</a><span class="white">);</span> <br/>
+                linkedin<span class="white">:</span> <span class="css-green">url</span><span class="white">(</span><a href="https://www.linkedin.com/in/grey-whittenberger/" class="link css-blue">https://www.linkedin.com/in/grey-whittenberger/</a><span class="white">);</span>
+            </address>
+            <h1 class="white">}</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects">My Projects</a>
+                </li>
+            </ul>
+        </nav>
+        
     </header>
 
-    <!-- hero  -->
-    <section class="hero"></section>
-
-        
-    
 
     <!-- about me  -->
-    <section class="about">
-        <h2>About me</h2>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime commodi autem saepe, harum eius ex obcaecati voluptate omnis similique unde sint cumque voluptas sed error totam illo delectus quia ad!
+    <section id="about" class="about">
+        <div class="flex about-title">
+            <h2>About Me</h2>
+        </div>
+
+        <div class="pfp">
+            <div class="me-img me-1">
+                <h3>Me and T-bone!</h3>
+            </div>
+          
+        </div>
+
+        <div class="flex bio">
+            <p> 
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae magni illum non dignissimos provident officia assumenda debitis vel, a dolores temporibus sed minus. Accusamus, quo? Explicabo similique eaque at consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime commodi autem saepe, harum eius ex obcaecati voluptate omnis similique unde sint cumque voluptas sed error totam illo delectus quia ad! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque reiciendis provident rerum est eligendi, illum molestiae quidem expedita doloribus eaque laborum voluptas velit facere quas! Dicta sit reprehenderit asperiores nihil. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit rerum dolorem, est sapiente repudiandae voluptates perspiciatis praesentium, ratione, sunt et distinctio. Voluptatum architecto iste, eius ducimus reprehenderit excepturi cupiditate soluta.
+            </p>
+        </div>
 
     </section>
 
-    <section class="projects">
-        <h2>
-            Deployed Projects
-        </h2>
+    <section class="hero hero-img">
+        <h2>Deployed Projects</h2>
+    </section>
+
+    <section id="projects" class="projects">
+        
+        <div class="grid-container">
+            <div class="grid-item item-1" >
+                <h2>
+                    <a href="https://grey-whitt.github.io/run-buddy/" target="blank">Run Buddy!</a>
+                </h2>
+            </div>
+            <div class="grid-item item-2">
+                <h2>
+                    <a href="https://grey-whitt.github.io/urban-octo-telegram-master/" target="blank">Horiseon</a>
+                </h2>
+            </div>
+            <div class="grid-item item-3">
+                <h2>
+                    <a href="https://grey-whitt.github.io/" target="blank">The Website You're On Now!</a>
+                </h2>
+            </div>
+            <div class="grid-item item-4">
+                <h2>
+                    <a href="https://www.google.com/search?q=cute+cats" target="blank">Cats?</a>
+                    <!-- i had no idea what to put here, its nearly 3 am -->
+                </h2>
+            </div>
+        </div>
+
+
 
     </section>
 
