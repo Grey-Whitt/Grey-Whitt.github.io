@@ -201,6 +201,8 @@ section {
     box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.5);
 }
 
+
+
 .projects a {
     text-decoration: none;
     color: white;
@@ -215,22 +217,19 @@ section {
     justify-content: center;
     align-items: center;
     background-size: cover;
+    height: 100%;
 }
 
 .grid-item h2 {
    font-size: 40px;
 }
 
-
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 15px;
 }
-
-
 
 .item-1 {
     grid-column: span 3;
@@ -281,21 +280,23 @@ section {
         display: none;
     }
 
-}
-
-@media screen and (max-width: 768px) {
     .grid-container {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto;
+        display: block;
+    }
+
+    .grid-item {
+        margin: 10px;
     }
 
     .item-2, .item-3, .item-4 {
         grid-column: span 3;
-        height: 200px;
-    }
+        height: 300px;
+    } 
 
-    
+}
+
+@media screen and (max-width: 768px) {
+     
     
     .contact {
         line-height: 2;
