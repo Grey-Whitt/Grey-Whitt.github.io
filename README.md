@@ -23,6 +23,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 The website will be added to overtime,
 
 ## This is what the page looks like
-![Full site](./assets/images/full-page.png)
+![Full site](https://github.com/Grey-Whitt/Grey-Whitt.github.io/blob/master/assets/Images/full-page.png)
 
 [See it here](https://grey-whitt.github.io/)
