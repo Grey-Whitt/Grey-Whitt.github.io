@@ -364,7 +364,7 @@ section {
     }
 
     header nav ul li:nth-child(odd){
-        border-bottom: 2px dashed white;
+        border-bottom: 2px dashed rgb(175, 175, 175);
     }
 
 
