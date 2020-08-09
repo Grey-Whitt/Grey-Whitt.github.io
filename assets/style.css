@@ -331,6 +331,45 @@ section {
     .hero {
         text-align: center;
         line-height: 1.5;
+        transition: none;
     }
 
+}
+
+@media screen and (max-width: 575px) {
+
+    .contact {
+        font-size: 20px;
+        line-height: 3.0;
+    }
+
+    .github, .linkedin { 
+        font-size: 0;
+    }
+
+    .github::after {
+        content: "my-github";
+        font-size: 20px;
+    }
+
+    .linkedin::after {
+        content: "my-linkedin";
+        font-size: 20px;
+    }
+
+    header nav ul {
+        line-height: 2;
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul li:nth-child(odd){
+        border-bottom: 2px dashed white;
+    }
+
+
+
+
+
+    
 }
