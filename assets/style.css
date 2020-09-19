@@ -230,21 +230,21 @@ section {
 
 .item-1 {
     grid-column: span 3;
-    background-image: linear-gradient(to bottom, rgba(252, 225, 56, 0.2), rgba(0, 0, 0, 0.73)), url(./Images/runbuddy.jpg);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.73)), url(./Images/spaceDash.jpg);
     height: 450px;
     background-size: cover;
 }
 
 .item-2 {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, .9)), url(./Images/horiseon.jpg);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, .9)), url(./Images/git-it-done.png);
 }
 
 .item-3 {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, .9)), url(./Images/portfolio.png);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, .9)), url(./Images/codeQuiz.png);
 }
 
 .item-4 {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, .9)), url(./Images/handsome-boy.png);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, .9)), url(./Images/runbuddy.jpg);
     background-position: center;
 }
 
