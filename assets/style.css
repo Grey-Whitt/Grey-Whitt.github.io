@@ -248,6 +248,13 @@ section {
     background-position: center;
 }
 
+.item-5 {
+    grid-column: span 3;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.73)), url(./Images/clinic-pal.png);
+    height: 450px;
+    background-size: cover;
+}
+
 /* projects end */
 
 @media screen and (max-width:1172px) {
